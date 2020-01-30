@@ -14,11 +14,12 @@ function App() {
 
 	const addItem = item => {
 		// add the given item to the cart
+
 	};
 
 	return (
 		<ProductContext.Provider value={{ products, addItem }}>
-			<CartContext.Provider value={{ cart, state }}>
+			<CartContext.Provider value={{ cart }}>
 				<div className="App">
 					<Navigation cart={cart} />
 
