@@ -25,8 +25,6 @@ function App() {
 
 				{/* Routes */}
 					<Route exact path="/" component={Products} />
-
-
 					<Route path="/cart" component={cart} />
 
 				</div>
